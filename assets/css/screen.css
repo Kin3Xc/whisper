@@ -467,6 +467,7 @@ margin on the iframe, cause it breaks stuff. */
     margin-bottom: 5rem;
     text-align: center;
     color: #fff;
+    opacity:0.5;
     /* background: #e67e22 no-repeat center center; */
     background-image: url(http://www.elkinurango.co/assets/images/header.jpg);
     background-size: cover;
