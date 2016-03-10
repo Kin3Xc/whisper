@@ -486,7 +486,7 @@ margin on the iframe, cause it breaks stuff. */
     margin: 0 auto;
     line-height: 0;
     border-radius:50%;
-    border:1px #FFF dashed;
+    border:2px #FFF solid;
 }
 
 /* The details of your blog. Defined in ghost/settings/ */
