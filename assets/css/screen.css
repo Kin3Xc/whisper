@@ -461,9 +461,11 @@ margin on the iframe, cause it breaks stuff. */
     margin-bottom: 5rem;
     text-align: center;
     color: #fff;
-    background: #e67e22 no-repeat center center;
-    /* background-image: url(http://www.elkinurango.co/assets/images/header.jpg); */
-    background-size: cover;
+    /* background: #e67e22 no-repeat center center; */
+    background-image: url(http://www.elkinurango.co/assets/images/header.jpg);
+    /* background-size: cover; */
+    background-position: center; 
+    background-repeat: no-repeat;
 }
 
 .blog-logo {
