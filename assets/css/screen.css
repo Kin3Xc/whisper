@@ -461,7 +461,8 @@ margin on the iframe, cause it breaks stuff. */
     margin-bottom: 5rem;
     text-align: center;
     color: #fff;
-    background: #97d7ff no-repeat center center;
+    /* background: #97d7ff no-repeat center center; */
+    background-image: url(images/header.jpg);
     background-size: cover;
 }
 
@@ -476,6 +477,7 @@ margin on the iframe, cause it breaks stuff. */
     width: auto;
     margin: 0 auto;
     line-height: 0;
+    border-radius:50%;
 }
 
 /* The details of your blog. Defined in ghost/settings/ */
@@ -877,7 +879,8 @@ margin on the iframe, cause it breaks stuff. */
     line-height: 1.7em;
     color: #fff;
     text-align: center;
-    background: #6ec6fc;
+    /* background: #6ec6fc; */
+    background:#2c3e50;
 }
 
 .site-footer a {
