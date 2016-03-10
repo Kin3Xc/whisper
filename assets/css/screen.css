@@ -117,6 +117,12 @@ table { border-collapse: collapse; border-spacing: 0; }
     font-style: normal;
 }
 
+
+@font-face{
+    font-family: 'Aileron-UltraLight';
+    src: url('../fonts/Aileron-UltraLight.otf');
+ }
+
 /* Apply these base styles to all icons */
 .icon-ghost:before,
 .icon-feed:before,
@@ -488,7 +494,8 @@ margin on the iframe, cause it breaks stuff. */
     font-size: 6rem;
     letter-spacing: -1px;
     font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Aileron-UltraLight';
     text-shadow: 0 1px 6px rgba(0,0,0,0.1);
     /* color:#fff076; */
     color:#fff;
@@ -499,7 +506,8 @@ margin on the iframe, cause it breaks stuff. */
     font-size: 1.8rem;
     line-height: 1.5em;
     font-weight: 300;
-    font-family: 'Noto Serif', serif;
+    /* font-family: 'Noto Serif', serif; */
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 0;
     text-shadow: 0 1px 3px rgba(0,0,0,0.15);
 }
